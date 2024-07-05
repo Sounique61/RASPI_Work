@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Eeagle" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Eeagle" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="/media/pi/ExtBackup/SWModule/Header/BIMNumMath" />
+					<Add directory="/media/pi/ExtBackup/SWModule/Header/BIMTesttools" />
+					<Add directory="/media/pi/ExtBackup/SWModule/Header/BIMTools" />
+					<Add directory="/media/pi/ExtBackup/SWModule/Header/BIMDevices" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Eeagle" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="../../../SWModule/Header/BIMDevices/BIMDevice.h" />
+		<Unit filename="../../../SWModule/Header/BIMNumMath/BIMEquation.h" />
+		<Unit filename="../../../SWModule/Header/BIMNumMath/BIMEstimation.h" />
+		<Unit filename="../../../SWModule/Header/BIMNumMath/BIMMathTools.h" />
+		<Unit filename="../../../SWModule/Header/BIMNumMath/BIMMatrix.h" />
+		<Unit filename="../../../SWModule/Header/BIMNumMath/BIMNumTools.h" />
+		<Unit filename="../../../SWModule/Header/BIMNumMath/BIMVector.h" />
+		<Unit filename="../../../SWModule/Header/BIMTesttools/BIMTestModuls.h" />
+		<Unit filename="../../../SWModule/Header/BIMTools/BIMDefines.h" />
+		<Unit filename="../../../SWModule/Header/BIMTools/BIMFileNames.h" />
+		<Unit filename="../../../SWModule/Header/BIMTools/BIMFileOperation.h" />
+		<Unit filename="../../../SWModule/Header/BIMTools/BIMTools.h" />
+		<Unit filename="../../../SWModule/Sourcen/BIMNumMath/BIMEquation.cpp" />
+		<Unit filename="../../../SWModule/Sourcen/BIMNumMath/BIMMathTools.cpp" />
+		<Unit filename="../../../SWModule/Sourcen/BIMNumMath/BIMMatrix.cpp" />
+		<Unit filename="../../../SWModule/Sourcen/BIMNumMath/BIMNumTools.cpp" />
+		<Unit filename="../../../SWModule/Sourcen/BIMNumMath/BIMVector.cpp" />
+		<Unit filename="../../../SWModule/Sourcen/BIMTools/BIMFileOperation.cpp" />
+		<Unit filename="../../../SWModule/Sourcen/BIMTools/BIMTools.cpp" />
+		<Unit filename="../../../SWModule/Sourcen/TestModule/BIMTestMatrix.cpp" />
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
